@@ -1,0 +1,34 @@
+rock_manifest = {
+   doc = {
+      COPYING = "d32239bcb673463ab874e80d47fae504",
+      ["README.md"] = "8428e22b9fb5421c7c85ad7afc5b99fc"
+   },
+   ["dromozoa-graph-1.41-1.rockspec"] = "9fa6fef4ada987a5c23f670b851e7ab7",
+   lua = {
+      dromozoa = {
+         graph = {
+            ["adjacency_list.lua"] = "df5f267899cbcce51f327991b6114e23",
+            ["binary_heap.lua"] = "0d6450173f1040d9dd30a3eafc408342",
+            ["brandes_kopf.lua"] = "9af9b09ca0fcaf903012cde99322e0c9",
+            ["count_crossings.lua"] = "e93ac35c2d5cf171b2dacc598aff1ee1",
+            ["count_crossings_bilayer.lua"] = "509c99916555f03f912dd3536759b77d",
+            ["find_dominators.lua"] = "3c610d5bd6927c03230939919d547fd6",
+            ["layout.lua"] = "c52b4047262802c180d82f0ee09674fc",
+            ["linked_list.lua"] = "cf6a7afc99b4eaaa7cf345762f0e9a69",
+            ["longest_path.lua"] = "2f3e4d2d670557c961862344a7b0418d",
+            ["make_dummy_vertices.lua"] = "ee3fa8baf3fd051cc7b7ed43d21e71e9",
+            ["make_layers.lua"] = "3eac9a4f295e01b750d4e4c37ff2838b",
+            ["make_paths.lua"] = "cf8338ddce941a6923c468c0963d27c6",
+            ["minimize_crossings.lua"] = "091eb2954d39988e4817f6996fa13d27",
+            ["postorder.lua"] = "eb4af59b72545894a93faf6ff4d03dfe",
+            ["promote_vertices.lua"] = "0c2f1b8368a85cb4fde3fbff7e29ba3a",
+            ["remove_cycles.lua"] = "ab4083a31cf124c7c8b8767298558df6",
+            ["remove_self_edges.lua"] = "88c17c274d0df3d5766fdb83d6156c05",
+            ["render.lua"] = "5220545d54931114cb01894f5f4e40c6",
+            ["subdivide_double_edges.lua"] = "28ad652bc116fabc4093ff7302d2880c",
+            ["subdivide_special_edges.lua"] = "de840b225e854d53b89367f7acb0bc3c"
+         },
+         ["graph.lua"] = "6102f446ba27b03b5c5727456eeb129a"
+      }
+   }
+}

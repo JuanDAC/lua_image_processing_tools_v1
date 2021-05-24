@@ -1,0 +1,26 @@
+rock_manifest = {
+   doc = {
+      COPYING = "d32239bcb673463ab874e80d47fae504",
+      ["README.md"] = "9a0c891fd90fdfbd2d6ed7b9dcde7fcf"
+   },
+   ["dromozoa-dom-1.9-1.rockspec"] = "d13316a5f8d7731fa6b90b19033c7a44",
+   lua = {
+      dromozoa = {
+         dom = {
+            ["check_name.lua"] = "ceff1b624cf6f27e329795649e12ee51",
+            ["comma_separated.lua"] = "1a6df9e557373d9266bd64b2987397c5",
+            ["document.lua"] = "adf628b526fada6dfe95eff46cb1c954",
+            ["element.lua"] = "c0f9215e780bee455fb7c2bce0674d34",
+            ["html5_document.lua"] = "4569714a1f58cf84af63fafa89a96da7",
+            ["is_name_char.lua"] = "9f2796cf7a6873040c804d09bbba3f22",
+            ["is_name_start_char.lua"] = "f3457bce5dbda366cc67ab6476df42de",
+            ["serialize_html5.lua"] = "d7f077b705cd2d92b3bad71f2c54f007",
+            ["serialize_separated.lua"] = "fb8b84b8d1423ba5c61b2e3be1978d93",
+            ["serialize_xml.lua"] = "9f07ff9bfa6bb762f095fe88ff13a056",
+            ["space_separated.lua"] = "fbfeffb066126f65d453e786ff682328",
+            ["xml_document.lua"] = "e8608a19d7054c28567544e25746ed17"
+         },
+         ["dom.lua"] = "42cdc8fad793307e0a7f47f4a05a148f"
+      }
+   }
+}

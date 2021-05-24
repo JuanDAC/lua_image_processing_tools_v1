@@ -1,0 +1,15 @@
+rock_manifest = {
+   ["away-0.0.3-1.rockspec"] = "6e757edc1f57fb7d4a0f22e8bd66f0fb",
+   doc = {
+      ["LICENSE.md"] = "97a733ff40c50b4bfc74471e1f6ca88b",
+      ["README.md"] = "fb80deb774969614f38332ae24743127"
+   },
+   lua = {
+      away = {
+         debugger = {
+            ["init.lua"] = "f7bfded690d3e4cf2f9c3c538cb111c4"
+         }
+      },
+      ["away.lua"] = "50a0895d3967f3ce6292645b2bcced81"
+   }
+}

@@ -1,0 +1,42 @@
+rock_manifest = {
+   bin = {
+      ["dromozoa-markdown-table"] = "1c20c02a7e07dda81c38d238e156ed1c"
+   },
+   doc = {
+      COPYING = "d32239bcb673463ab874e80d47fae504",
+      ["README.md"] = "62de41016baba1f5e4b2bbdb37c9f0a3"
+   },
+   ["dromozoa-utf8-1.15-1.rockspec"] = "9e71045cfb178095d8dcd2dc886817be",
+   lua = {
+      dromozoa = {
+         ucd = {
+            ["builder.lua"] = "777c0bce34e1b7bd1c683283abcedce5",
+            ["east_asian_width.lua"] = "8c1e8c21bae4df837a193419a5545cb2",
+            ["general_category.lua"] = "d4e502e3115f5a24971fc0087ac76952",
+            ["is_white_space.lua"] = "13755f776c0dd795ba52d49146122089"
+         },
+         ["ucd.lua"] = "68c51a16fb566281facccd35b0876201",
+         utf16 = {
+            ["decode_surrogate_pair.lua"] = "77bb4866c20df05923d69f9f5ee3d485"
+         },
+         ["utf16.lua"] = "956eaa8fc7a813c31390f0821c3c3a1c",
+         utf8 = {
+            ["check_integer.lua"] = "9310d62c8828e8635200f5e79ee29a49",
+            ["check_string.lua"] = "0e3a8d39f27571897f5858097a0d5093",
+            ["count.lua"] = "740b1abfe66267bd9b905e2350b3ddf0",
+            ["count_table.lua"] = "016f57494b9282942e68e61ee5b97202",
+            ["decode.lua"] = "dc88cfb6b3df601e6d2b7fae1052725e",
+            ["decode_each.lua"] = "52bddde66dd389966485e27e0a3805ec",
+            ["decode_table.lua"] = "ffc0142476c8a7b481e8c1ae8f0b2f02",
+            ["encode.lua"] = "be29266130458b31e2281dbbe4bdac7a",
+            ["encode53.lua"] = "17ff0e42265a734651306485926d7264",
+            ["encode_error.lua"] = "8081369d58f97c82ea8c28fb46fe13a8",
+            ["encode_table.lua"] = "c7d598e2e6a4fd7bcf748e793b1a82e1",
+            ["offset.lua"] = "3253cf4b3f18fba9852216e1552a7b3a",
+            ["offset_table.lua"] = "6f2331748ab1e65a292c3f48bc7353b4",
+            ["pure.lua"] = "971cd806bad808890395102b4de5bde1"
+         },
+         ["utf8.lua"] = "a5f5998982b468b543ebd91336501b73"
+      }
+   }
+}
