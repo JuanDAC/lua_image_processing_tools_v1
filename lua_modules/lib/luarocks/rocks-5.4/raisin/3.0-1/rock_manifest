@@ -1,0 +1,9 @@
+rock_manifest = {
+   doc = {
+      ["README.md"] = "6229a399c7263acea2775aed8c9a9128"
+   },
+   lua = {
+      ["raisin.lua"] = "4339e4ee0e62d816baad98cfb1d9ad9a"
+   },
+   ["raisin-3.0-1.rockspec"] = "aff69fe869e6844348cd555b4e7eae36"
+}
