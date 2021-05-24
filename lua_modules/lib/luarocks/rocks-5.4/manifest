@@ -1,0 +1,1561 @@
+commands = {
+   ["dromozoa-markdown-table"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   json2lua = {
+      "lua-cjson/2.1.0-1"
+   },
+   lua2json = {
+      "lua-cjson/2.1.0-1"
+   }
+}
+dependencies = {
+   away = {
+      ["0.0.3-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 3, string = "5.3"
+                  }
+               },
+               {
+                  op = "<=",
+                  version = {
+                     5, 4, string = "5.4"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   colorise = {
+      ["1.0-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   colors = {
+      ["8.05.26-1"] = {}
+   },
+   ["dromozoa-dom"] = {
+      ["1.9-1"] = {
+         {
+            constraints = {},
+            name = "dromozoa-utf8"
+         }
+      }
+   },
+   ["dromozoa-graph"] = {
+      ["1.41-1"] = {
+         {
+            constraints = {},
+            name = "dromozoa-dom"
+         },
+         {
+            constraints = {},
+            name = "dromozoa-utf8"
+         },
+         {
+            constraints = {},
+            name = "dromozoa-vecmath"
+         }
+      }
+   },
+   ["dromozoa-utf8"] = {
+      ["1.15-1"] = {}
+   },
+   ["dromozoa-vecmath"] = {
+      ["1.16-1"] = {}
+   },
+   ["f-strings"] = {
+      ["0.2-1"] = {}
+   },
+   fun = {
+      ["0.1.3-1"] = {
+         {
+            constraints = {},
+            name = "lua"
+         }
+      }
+   },
+   hump = {
+      ["0.4-2"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   inspect = {
+      ["3.1.1-0"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   lockbox = {
+      ["0.1.0-0"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 2, string = "5.2"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   ["lua-cjson"] = {
+      ["2.1.0-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   ["lua-nums"] = {
+      ["scm-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 3, string = "5.3"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   ["lua-step"] = {
+      ["v1.0-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   luafilesystem = {
+      ["1.8.0-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   luaiter = {
+      ["0.2-1"] = {}
+   },
+   ["luarocks-fetch-gitrec"] = {
+      ["0.2-2"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               },
+               {
+                  op = "<",
+                  version = {
+                     5, 5, string = "5.5"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   luascope = {
+      ["0.01-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   luastruct = {
+      ["1.1-1"] = {}
+   },
+   penlight = {
+      ["1.9.2-1"] = {
+         {
+            constraints = {},
+            name = "luafilesystem"
+         }
+      }
+   },
+   ["promise-lua"] = {
+      ["0.4.1-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   push = {
+      ["0.1-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   raisin = {
+      ["3.0-1"] = {}
+   },
+   random = {
+      ["1.1-0"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   rxlua = {
+      ["0.0.3-1"] = {}
+   },
+   ["std._debug"] = {
+      ["1.0.1-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               },
+               {
+                  op = "<",
+                  version = {
+                     5, 5, string = "5.5"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   ["try-catch-finally"] = {
+      ["1.0-0"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   typecheck = {
+      ["2.1-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               },
+               {
+                  op = "<",
+                  version = {
+                     5, 5, string = "5.5"
+                  }
+               }
+            },
+            name = "lua"
+         },
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     1, 0, 1, string = "1.0.1"
+                  }
+               }
+            },
+            name = "std._debug"
+         }
+      }
+   }
+}
+modules = {
+   F = {
+      "f-strings/0.2-1"
+   },
+   away = {
+      "away/0.0.3-1"
+   },
+   ["away.debugger.init"] = {
+      "away/0.0.3-1"
+   },
+   cjson = {
+      "lua-cjson/2.1.0-1"
+   },
+   ["cjson.util"] = {
+      "lua-cjson/2.1.0-1"
+   },
+   colorise = {
+      "colorise/1.0-1"
+   },
+   colors = {
+      "colors/8.05.26-1"
+   },
+   ["dromozoa.dom"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.check_name"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.comma_separated"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.document"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.element"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.html5_document"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.is_name_char"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.is_name_start_char"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.serialize_html5"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.serialize_separated"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.serialize_xml"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.space_separated"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.dom.xml_document"] = {
+      "dromozoa-dom/1.9-1"
+   },
+   ["dromozoa.graph"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.adjacency_list"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.binary_heap"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.brandes_kopf"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.count_crossings"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.count_crossings_bilayer"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.find_dominators"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.layout"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.linked_list"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.longest_path"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.make_dummy_vertices"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.make_layers"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.make_paths"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.minimize_crossings"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.postorder"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.promote_vertices"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.remove_cycles"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.remove_self_edges"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.render"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.subdivide_double_edges"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.graph.subdivide_special_edges"] = {
+      "dromozoa-graph/1.41-1"
+   },
+   ["dromozoa.svg"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.svg.arcto"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.svg.close_path"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.svg.cubic_curveto"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.svg.lineto"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.svg.moveto"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.svg.path_data"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.svg.quadratic_curveto"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.ucd"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.ucd.builder"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.ucd.east_asian_width"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.ucd.general_category"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.ucd.is_white_space"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf16"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf16.decode_surrogate_pair"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.check_integer"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.check_string"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.count"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.count_table"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.decode"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.decode_each"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.decode_table"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.encode"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.encode53"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.encode_error"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.encode_table"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.offset"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.offset_table"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.utf8.pure"] = {
+      "dromozoa-utf8/1.15-1"
+   },
+   ["dromozoa.vecmath"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.axis_angle4"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.bernstein"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.bezier"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.bezier_clipping"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.bezier_focus"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.clip_both"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.color3"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.color3b"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.color3f"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.color4"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.color4b"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.color4f"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.colors"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.matrix2"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.matrix3"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.matrix4"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.point2"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.point3"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.point4"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.polynomial"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.quat4"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.quickhull"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.svd2"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.svd3"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.tex_coord2"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.tex_coord3"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.tex_coord4"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.tuple2"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.tuple3"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.tuple4"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.vector2"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.vector3"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   ["dromozoa.vecmath.vector4"] = {
+      "dromozoa-vecmath/1.16-1"
+   },
+   fun = {
+      "fun/0.1.3-1"
+   },
+   ["hump.camera"] = {
+      "hump/0.4-2"
+   },
+   ["hump.class"] = {
+      "hump/0.4-2"
+   },
+   ["hump.gamestate"] = {
+      "hump/0.4-2"
+   },
+   ["hump.signal"] = {
+      "hump/0.4-2"
+   },
+   ["hump.timer"] = {
+      "hump/0.4-2"
+   },
+   ["hump.vector"] = {
+      "hump/0.4-2"
+   },
+   ["hump.vector-light"] = {
+      "hump/0.4-2"
+   },
+   inspect = {
+      "inspect/3.1.1-0"
+   },
+   iter = {
+      "iter/0.2-1"
+   },
+   json2lua = {
+      "lua-cjson/2.1.0-1"
+   },
+   lfs = {
+      "luafilesystem/1.8.0-1"
+   },
+   ["lockbox.cipher.aes128"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.aes192"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.aes256"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.des"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.des3"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.mode.cbc"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.mode.cfb"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.mode.ctr"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.mode.ecb"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.mode.ige"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.mode.ofb"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.cipher.mode.pcbc"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.digest.md2"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.digest.md4"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.digest.md5"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.digest.ripemd128"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.digest.ripemd160"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.digest.sha1"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.digest.sha2_224"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.digest.sha2_256"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.init"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.kdf.pbkdf2"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.mac.hmac"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.padding.ansix923"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.padding.isoiec7816"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.padding.pkcs7"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.padding.zero"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.util.array"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.util.base64"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.util.bit"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.util.queue"] = {
+      "lockbox/0.1.0-0"
+   },
+   ["lockbox.util.stream"] = {
+      "lockbox/0.1.0-0"
+   },
+   lua2json = {
+      "lua-cjson/2.1.0-1"
+   },
+   ["luarocks.fetch.gitrec"] = {
+      "luarocks-fetch-gitrec/0.2-2"
+   },
+   ["luarocks.fetch.gitrec_file"] = {
+      "luarocks-fetch-gitrec/0.2-2"
+   },
+   ["luarocks.fetch.gitrec_http"] = {
+      "luarocks-fetch-gitrec/0.2-2"
+   },
+   ["luarocks.fetch.gitrec_https"] = {
+      "luarocks-fetch-gitrec/0.2-2"
+   },
+   ["luarocks.fetch.gitrec_ssh"] = {
+      "luarocks-fetch-gitrec/0.2-2"
+   },
+   ["nums.bn"] = {
+      "lua-nums/scm-1"
+   },
+   ["nums.init"] = {
+      "lua-nums/scm-1"
+   },
+   ["nums.uintb"] = {
+      "lua-nums/scm-1"
+   },
+   ["nums.uintn"] = {
+      "lua-nums/scm-1"
+   },
+   ["pl.Date"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.List"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.Map"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.MultiMap"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.OrderedMap"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.Set"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.app"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.array2d"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.class"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.compat"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.comprehension"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.config"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.data"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.dir"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.file"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.func"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.import_into"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.init"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.input"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.lapp"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.lexer"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.luabalanced"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.operator"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.path"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.permute"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.pretty"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.seq"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.sip"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.strict"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.stringio"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.stringx"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.tablex"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.template"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.test"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.text"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.types"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.url"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.utils"] = {
+      "penlight/1.9.2-1"
+   },
+   ["pl.xml"] = {
+      "penlight/1.9.2-1"
+   },
+   promise = {
+      "promise-lua/0.4.1-1"
+   },
+   push = {
+      "push/0.1-1"
+   },
+   query = {
+      "luaiter/0.2-1"
+   },
+   raisin = {
+      "raisin/3.0-1"
+   },
+   random = {
+      "random/1.1-0"
+   },
+   rx = {
+      "rxlua/0.0.3-1"
+   },
+   ["scope.init"] = {
+      "luascope/0.01-1"
+   },
+   ["std._debug.init"] = {
+      "std._debug/1.0.1-1"
+   },
+   ["std._debug.version"] = {
+      "std._debug/1.0.1-1"
+   },
+   step = {
+      "lua-step/v1.0-1"
+   },
+   struct = {
+      "luastruct/1.1-1"
+   },
+   ["try-catch-finally"] = {
+      "try-catch-finally/1.0-0"
+   },
+   ["typecheck._base"] = {
+      "typecheck/2.1-1"
+   },
+   ["typecheck._strict"] = {
+      "typecheck/2.1-1"
+   },
+   ["typecheck.init"] = {
+      "typecheck/2.1-1"
+   },
+   ["typecheck.version"] = {
+      "typecheck/2.1-1"
+   }
+}
+repository = {
+   away = {
+      ["0.0.3-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               away = "away.lua",
+               ["away.debugger.init"] = "away/debugger/init.lua"
+            }
+         }
+      }
+   },
+   colorise = {
+      ["1.0-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               colorise = "colorise.lua"
+            }
+         }
+      }
+   },
+   colors = {
+      ["8.05.26-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               colors = "colors.lua"
+            }
+         }
+      }
+   },
+   ["dromozoa-dom"] = {
+      ["1.9-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {
+               ["dromozoa-utf8"] = "1.15-1"
+            },
+            modules = {
+               ["dromozoa.dom"] = "dromozoa/dom.lua",
+               ["dromozoa.dom.check_name"] = "dromozoa/dom/check_name.lua",
+               ["dromozoa.dom.comma_separated"] = "dromozoa/dom/comma_separated.lua",
+               ["dromozoa.dom.document"] = "dromozoa/dom/document.lua",
+               ["dromozoa.dom.element"] = "dromozoa/dom/element.lua",
+               ["dromozoa.dom.html5_document"] = "dromozoa/dom/html5_document.lua",
+               ["dromozoa.dom.is_name_char"] = "dromozoa/dom/is_name_char.lua",
+               ["dromozoa.dom.is_name_start_char"] = "dromozoa/dom/is_name_start_char.lua",
+               ["dromozoa.dom.serialize_html5"] = "dromozoa/dom/serialize_html5.lua",
+               ["dromozoa.dom.serialize_separated"] = "dromozoa/dom/serialize_separated.lua",
+               ["dromozoa.dom.serialize_xml"] = "dromozoa/dom/serialize_xml.lua",
+               ["dromozoa.dom.space_separated"] = "dromozoa/dom/space_separated.lua",
+               ["dromozoa.dom.xml_document"] = "dromozoa/dom/xml_document.lua"
+            }
+         }
+      }
+   },
+   ["dromozoa-graph"] = {
+      ["1.41-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {
+               ["dromozoa-dom"] = "1.9-1",
+               ["dromozoa-utf8"] = "1.15-1",
+               ["dromozoa-vecmath"] = "1.16-1"
+            },
+            modules = {
+               ["dromozoa.graph"] = "dromozoa/graph.lua",
+               ["dromozoa.graph.adjacency_list"] = "dromozoa/graph/adjacency_list.lua",
+               ["dromozoa.graph.binary_heap"] = "dromozoa/graph/binary_heap.lua",
+               ["dromozoa.graph.brandes_kopf"] = "dromozoa/graph/brandes_kopf.lua",
+               ["dromozoa.graph.count_crossings"] = "dromozoa/graph/count_crossings.lua",
+               ["dromozoa.graph.count_crossings_bilayer"] = "dromozoa/graph/count_crossings_bilayer.lua",
+               ["dromozoa.graph.find_dominators"] = "dromozoa/graph/find_dominators.lua",
+               ["dromozoa.graph.layout"] = "dromozoa/graph/layout.lua",
+               ["dromozoa.graph.linked_list"] = "dromozoa/graph/linked_list.lua",
+               ["dromozoa.graph.longest_path"] = "dromozoa/graph/longest_path.lua",
+               ["dromozoa.graph.make_dummy_vertices"] = "dromozoa/graph/make_dummy_vertices.lua",
+               ["dromozoa.graph.make_layers"] = "dromozoa/graph/make_layers.lua",
+               ["dromozoa.graph.make_paths"] = "dromozoa/graph/make_paths.lua",
+               ["dromozoa.graph.minimize_crossings"] = "dromozoa/graph/minimize_crossings.lua",
+               ["dromozoa.graph.postorder"] = "dromozoa/graph/postorder.lua",
+               ["dromozoa.graph.promote_vertices"] = "dromozoa/graph/promote_vertices.lua",
+               ["dromozoa.graph.remove_cycles"] = "dromozoa/graph/remove_cycles.lua",
+               ["dromozoa.graph.remove_self_edges"] = "dromozoa/graph/remove_self_edges.lua",
+               ["dromozoa.graph.render"] = "dromozoa/graph/render.lua",
+               ["dromozoa.graph.subdivide_double_edges"] = "dromozoa/graph/subdivide_double_edges.lua",
+               ["dromozoa.graph.subdivide_special_edges"] = "dromozoa/graph/subdivide_special_edges.lua"
+            }
+         }
+      }
+   },
+   ["dromozoa-utf8"] = {
+      ["1.15-1"] = {
+         {
+            arch = "installed",
+            commands = {
+               ["dromozoa-markdown-table"] = "dromozoa-markdown-table"
+            },
+            dependencies = {},
+            modules = {
+               ["dromozoa.ucd"] = "dromozoa/ucd.lua",
+               ["dromozoa.ucd.builder"] = "dromozoa/ucd/builder.lua",
+               ["dromozoa.ucd.east_asian_width"] = "dromozoa/ucd/east_asian_width.lua",
+               ["dromozoa.ucd.general_category"] = "dromozoa/ucd/general_category.lua",
+               ["dromozoa.ucd.is_white_space"] = "dromozoa/ucd/is_white_space.lua",
+               ["dromozoa.utf16"] = "dromozoa/utf16.lua",
+               ["dromozoa.utf16.decode_surrogate_pair"] = "dromozoa/utf16/decode_surrogate_pair.lua",
+               ["dromozoa.utf8"] = "dromozoa/utf8.lua",
+               ["dromozoa.utf8.check_integer"] = "dromozoa/utf8/check_integer.lua",
+               ["dromozoa.utf8.check_string"] = "dromozoa/utf8/check_string.lua",
+               ["dromozoa.utf8.count"] = "dromozoa/utf8/count.lua",
+               ["dromozoa.utf8.count_table"] = "dromozoa/utf8/count_table.lua",
+               ["dromozoa.utf8.decode"] = "dromozoa/utf8/decode.lua",
+               ["dromozoa.utf8.decode_each"] = "dromozoa/utf8/decode_each.lua",
+               ["dromozoa.utf8.decode_table"] = "dromozoa/utf8/decode_table.lua",
+               ["dromozoa.utf8.encode"] = "dromozoa/utf8/encode.lua",
+               ["dromozoa.utf8.encode53"] = "dromozoa/utf8/encode53.lua",
+               ["dromozoa.utf8.encode_error"] = "dromozoa/utf8/encode_error.lua",
+               ["dromozoa.utf8.encode_table"] = "dromozoa/utf8/encode_table.lua",
+               ["dromozoa.utf8.offset"] = "dromozoa/utf8/offset.lua",
+               ["dromozoa.utf8.offset_table"] = "dromozoa/utf8/offset_table.lua",
+               ["dromozoa.utf8.pure"] = "dromozoa/utf8/pure.lua"
+            }
+         }
+      }
+   },
+   ["dromozoa-vecmath"] = {
+      ["1.16-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["dromozoa.svg"] = "dromozoa/svg.lua",
+               ["dromozoa.svg.arcto"] = "dromozoa/svg/arcto.lua",
+               ["dromozoa.svg.close_path"] = "dromozoa/svg/close_path.lua",
+               ["dromozoa.svg.cubic_curveto"] = "dromozoa/svg/cubic_curveto.lua",
+               ["dromozoa.svg.lineto"] = "dromozoa/svg/lineto.lua",
+               ["dromozoa.svg.moveto"] = "dromozoa/svg/moveto.lua",
+               ["dromozoa.svg.path_data"] = "dromozoa/svg/path_data.lua",
+               ["dromozoa.svg.quadratic_curveto"] = "dromozoa/svg/quadratic_curveto.lua",
+               ["dromozoa.vecmath"] = "dromozoa/vecmath.lua",
+               ["dromozoa.vecmath.axis_angle4"] = "dromozoa/vecmath/axis_angle4.lua",
+               ["dromozoa.vecmath.bernstein"] = "dromozoa/vecmath/bernstein.lua",
+               ["dromozoa.vecmath.bezier"] = "dromozoa/vecmath/bezier.lua",
+               ["dromozoa.vecmath.bezier_clipping"] = "dromozoa/vecmath/bezier_clipping.lua",
+               ["dromozoa.vecmath.bezier_focus"] = "dromozoa/vecmath/bezier_focus.lua",
+               ["dromozoa.vecmath.clip_both"] = "dromozoa/vecmath/clip_both.lua",
+               ["dromozoa.vecmath.color3"] = "dromozoa/vecmath/color3.lua",
+               ["dromozoa.vecmath.color3b"] = "dromozoa/vecmath/color3b.lua",
+               ["dromozoa.vecmath.color3f"] = "dromozoa/vecmath/color3f.lua",
+               ["dromozoa.vecmath.color4"] = "dromozoa/vecmath/color4.lua",
+               ["dromozoa.vecmath.color4b"] = "dromozoa/vecmath/color4b.lua",
+               ["dromozoa.vecmath.color4f"] = "dromozoa/vecmath/color4f.lua",
+               ["dromozoa.vecmath.colors"] = "dromozoa/vecmath/colors.lua",
+               ["dromozoa.vecmath.matrix2"] = "dromozoa/vecmath/matrix2.lua",
+               ["dromozoa.vecmath.matrix3"] = "dromozoa/vecmath/matrix3.lua",
+               ["dromozoa.vecmath.matrix4"] = "dromozoa/vecmath/matrix4.lua",
+               ["dromozoa.vecmath.point2"] = "dromozoa/vecmath/point2.lua",
+               ["dromozoa.vecmath.point3"] = "dromozoa/vecmath/point3.lua",
+               ["dromozoa.vecmath.point4"] = "dromozoa/vecmath/point4.lua",
+               ["dromozoa.vecmath.polynomial"] = "dromozoa/vecmath/polynomial.lua",
+               ["dromozoa.vecmath.quat4"] = "dromozoa/vecmath/quat4.lua",
+               ["dromozoa.vecmath.quickhull"] = "dromozoa/vecmath/quickhull.lua",
+               ["dromozoa.vecmath.svd2"] = "dromozoa/vecmath/svd2.lua",
+               ["dromozoa.vecmath.svd3"] = "dromozoa/vecmath/svd3.lua",
+               ["dromozoa.vecmath.tex_coord2"] = "dromozoa/vecmath/tex_coord2.lua",
+               ["dromozoa.vecmath.tex_coord3"] = "dromozoa/vecmath/tex_coord3.lua",
+               ["dromozoa.vecmath.tex_coord4"] = "dromozoa/vecmath/tex_coord4.lua",
+               ["dromozoa.vecmath.tuple2"] = "dromozoa/vecmath/tuple2.lua",
+               ["dromozoa.vecmath.tuple3"] = "dromozoa/vecmath/tuple3.lua",
+               ["dromozoa.vecmath.tuple4"] = "dromozoa/vecmath/tuple4.lua",
+               ["dromozoa.vecmath.vector2"] = "dromozoa/vecmath/vector2.lua",
+               ["dromozoa.vecmath.vector3"] = "dromozoa/vecmath/vector3.lua",
+               ["dromozoa.vecmath.vector4"] = "dromozoa/vecmath/vector4.lua"
+            }
+         }
+      }
+   },
+   ["f-strings"] = {
+      ["0.2-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               F = "F.lua"
+            }
+         }
+      }
+   },
+   fun = {
+      ["0.1.3-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               fun = "fun.lua"
+            }
+         }
+      }
+   },
+   hump = {
+      ["0.4-2"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["hump.camera"] = "hump/camera.lua",
+               ["hump.class"] = "hump/class.lua",
+               ["hump.gamestate"] = "hump/gamestate.lua",
+               ["hump.signal"] = "hump/signal.lua",
+               ["hump.timer"] = "hump/timer.lua",
+               ["hump.vector"] = "hump/vector.lua",
+               ["hump.vector-light"] = "hump/vector-light.lua"
+            }
+         }
+      }
+   },
+   inspect = {
+      ["3.1.1-0"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               inspect = "inspect.lua"
+            }
+         }
+      }
+   },
+   lockbox = {
+      ["0.1.0-0"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["lockbox.cipher.aes128"] = "lockbox/cipher/aes128.lua",
+               ["lockbox.cipher.aes192"] = "lockbox/cipher/aes192.lua",
+               ["lockbox.cipher.aes256"] = "lockbox/cipher/aes256.lua",
+               ["lockbox.cipher.des"] = "lockbox/cipher/des.lua",
+               ["lockbox.cipher.des3"] = "lockbox/cipher/des3.lua",
+               ["lockbox.cipher.mode.cbc"] = "lockbox/cipher/mode/cbc.lua",
+               ["lockbox.cipher.mode.cfb"] = "lockbox/cipher/mode/cfb.lua",
+               ["lockbox.cipher.mode.ctr"] = "lockbox/cipher/mode/ctr.lua",
+               ["lockbox.cipher.mode.ecb"] = "lockbox/cipher/mode/ecb.lua",
+               ["lockbox.cipher.mode.ige"] = "lockbox/cipher/mode/ige.lua",
+               ["lockbox.cipher.mode.ofb"] = "lockbox/cipher/mode/ofb.lua",
+               ["lockbox.cipher.mode.pcbc"] = "lockbox/cipher/mode/pcbc.lua",
+               ["lockbox.digest.md2"] = "lockbox/digest/md2.lua",
+               ["lockbox.digest.md4"] = "lockbox/digest/md4.lua",
+               ["lockbox.digest.md5"] = "lockbox/digest/md5.lua",
+               ["lockbox.digest.ripemd128"] = "lockbox/digest/ripemd128.lua",
+               ["lockbox.digest.ripemd160"] = "lockbox/digest/ripemd160.lua",
+               ["lockbox.digest.sha1"] = "lockbox/digest/sha1.lua",
+               ["lockbox.digest.sha2_224"] = "lockbox/digest/sha2_224.lua",
+               ["lockbox.digest.sha2_256"] = "lockbox/digest/sha2_256.lua",
+               ["lockbox.init"] = "lockbox/init.lua",
+               ["lockbox.kdf.pbkdf2"] = "lockbox/kdf/pbkdf2.lua",
+               ["lockbox.mac.hmac"] = "lockbox/mac/hmac.lua",
+               ["lockbox.padding.ansix923"] = "lockbox/padding/ansix923.lua",
+               ["lockbox.padding.isoiec7816"] = "lockbox/padding/isoiec7816.lua",
+               ["lockbox.padding.pkcs7"] = "lockbox/padding/pkcs7.lua",
+               ["lockbox.padding.zero"] = "lockbox/padding/zero.lua",
+               ["lockbox.util.array"] = "lockbox/util/array.lua",
+               ["lockbox.util.base64"] = "lockbox/util/base64.lua",
+               ["lockbox.util.bit"] = "lockbox/util/bit.lua",
+               ["lockbox.util.queue"] = "lockbox/util/queue.lua",
+               ["lockbox.util.stream"] = "lockbox/util/stream.lua"
+            }
+         }
+      }
+   },
+   ["lua-cjson"] = {
+      ["2.1.0-1"] = {
+         {
+            arch = "installed",
+            commands = {
+               json2lua = "json2lua",
+               lua2json = "lua2json"
+            },
+            dependencies = {},
+            modules = {
+               cjson = "cjson.so",
+               ["cjson.util"] = "cjson/util.lua",
+               json2lua = "json2lua.lua",
+               lua2json = "lua2json.lua"
+            }
+         }
+      }
+   },
+   ["lua-nums"] = {
+      ["scm-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["nums.bn"] = "nums/bn.lua",
+               ["nums.init"] = "nums/init.lua",
+               ["nums.uintb"] = "nums/uintb.lua",
+               ["nums.uintn"] = "nums/uintn.lua"
+            }
+         }
+      }
+   },
+   ["lua-step"] = {
+      ["v1.0-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               step = "step.lua"
+            }
+         }
+      }
+   },
+   luafilesystem = {
+      ["1.8.0-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               lfs = "lfs.so"
+            }
+         }
+      }
+   },
+   luaiter = {
+      ["0.2-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               iter = "iter.lua",
+               query = "query.lua"
+            }
+         }
+      }
+   },
+   ["luarocks-fetch-gitrec"] = {
+      ["0.2-2"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["luarocks.fetch.gitrec"] = "luarocks/fetch/gitrec.lua",
+               ["luarocks.fetch.gitrec_file"] = "luarocks/fetch/gitrec_file.lua",
+               ["luarocks.fetch.gitrec_http"] = "luarocks/fetch/gitrec_http.lua",
+               ["luarocks.fetch.gitrec_https"] = "luarocks/fetch/gitrec_https.lua",
+               ["luarocks.fetch.gitrec_ssh"] = "luarocks/fetch/gitrec_ssh.lua"
+            }
+         }
+      }
+   },
+   luascope = {
+      ["0.01-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["scope.init"] = "scope/init.lua"
+            }
+         }
+      }
+   },
+   luastruct = {
+      ["1.1-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               struct = "struct.lua"
+            }
+         }
+      }
+   },
+   penlight = {
+      ["1.9.2-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {
+               luafilesystem = "1.8.0-1"
+            },
+            modules = {
+               ["pl.Date"] = "pl/Date.lua",
+               ["pl.List"] = "pl/List.lua",
+               ["pl.Map"] = "pl/Map.lua",
+               ["pl.MultiMap"] = "pl/MultiMap.lua",
+               ["pl.OrderedMap"] = "pl/OrderedMap.lua",
+               ["pl.Set"] = "pl/Set.lua",
+               ["pl.app"] = "pl/app.lua",
+               ["pl.array2d"] = "pl/array2d.lua",
+               ["pl.class"] = "pl/class.lua",
+               ["pl.compat"] = "pl/compat.lua",
+               ["pl.comprehension"] = "pl/comprehension.lua",
+               ["pl.config"] = "pl/config.lua",
+               ["pl.data"] = "pl/data.lua",
+               ["pl.dir"] = "pl/dir.lua",
+               ["pl.file"] = "pl/file.lua",
+               ["pl.func"] = "pl/func.lua",
+               ["pl.import_into"] = "pl/import_into.lua",
+               ["pl.init"] = "pl/init.lua",
+               ["pl.input"] = "pl/input.lua",
+               ["pl.lapp"] = "pl/lapp.lua",
+               ["pl.lexer"] = "pl/lexer.lua",
+               ["pl.luabalanced"] = "pl/luabalanced.lua",
+               ["pl.operator"] = "pl/operator.lua",
+               ["pl.path"] = "pl/path.lua",
+               ["pl.permute"] = "pl/permute.lua",
+               ["pl.pretty"] = "pl/pretty.lua",
+               ["pl.seq"] = "pl/seq.lua",
+               ["pl.sip"] = "pl/sip.lua",
+               ["pl.strict"] = "pl/strict.lua",
+               ["pl.stringio"] = "pl/stringio.lua",
+               ["pl.stringx"] = "pl/stringx.lua",
+               ["pl.tablex"] = "pl/tablex.lua",
+               ["pl.template"] = "pl/template.lua",
+               ["pl.test"] = "pl/test.lua",
+               ["pl.text"] = "pl/text.lua",
+               ["pl.types"] = "pl/types.lua",
+               ["pl.url"] = "pl/url.lua",
+               ["pl.utils"] = "pl/utils.lua",
+               ["pl.xml"] = "pl/xml.lua"
+            }
+         }
+      }
+   },
+   ["promise-lua"] = {
+      ["0.4.1-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               promise = "promise.lua"
+            }
+         }
+      }
+   },
+   push = {
+      ["0.1-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               push = "push.lua"
+            }
+         }
+      }
+   },
+   raisin = {
+      ["3.0-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               raisin = "raisin.lua"
+            }
+         }
+      }
+   },
+   random = {
+      ["1.1-0"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               random = "random.lua"
+            }
+         }
+      }
+   },
+   rxlua = {
+      ["0.0.3-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               rx = "rx.lua"
+            }
+         }
+      }
+   },
+   ["std._debug"] = {
+      ["1.0.1-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["std._debug.init"] = "std/_debug/init.lua",
+               ["std._debug.version"] = "std/_debug/version.lua"
+            }
+         }
+      }
+   },
+   ["try-catch-finally"] = {
+      ["1.0-0"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["try-catch-finally"] = "try-catch-finally.lua"
+            }
+         }
+      }
+   },
+   typecheck = {
+      ["2.1-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {
+               ["std._debug"] = "1.0.1-1"
+            },
+            modules = {
+               ["typecheck._base"] = "typecheck/_base.lua",
+               ["typecheck._strict"] = "typecheck/_strict.lua",
+               ["typecheck.init"] = "typecheck/init.lua",
+               ["typecheck.version"] = "typecheck/version.lua"
+            }
+         }
+      }
+   }
+}
