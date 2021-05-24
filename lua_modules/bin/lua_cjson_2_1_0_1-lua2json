@@ -1,0 +1,3 @@
+#!/bin/sh
+
+LUAROCKS_SYSCONFDIR='/usr/local/etc/luarocks' exec '/usr/local/bin/lua' -e 'package.path="/mnt/c/Users/workh/AppData/Roaming/Aseprite/scripts/the_best/./lua_modules/share/lua/5.4/?.lua;/mnt/c/Users/workh/AppData/Roaming/Aseprite/scripts/the_best/./lua_modules/share/lua/5.4/?/init.lua;"..package.path;package.cpath="/mnt/c/Users/workh/AppData/Roaming/Aseprite/scripts/the_best/./lua_modules/lib/lua/5.4/?.so;"..package.cpath;local k,l,_=pcall(require,"luarocks.loader") _=k and l.add_context("lua-cjson","2.1.0-1")' '/mnt/c/Users/workh/AppData/Roaming/Aseprite/scripts/the_best/./lua_modules/lib/luarocks/rocks-5.4/lua-cjson/2.1.0-1/bin/lua2json' "$@"
